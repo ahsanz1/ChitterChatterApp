@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ChitterChatterApp</string>
+    <string name="willSendMessage">Please enter your phone number. Chitter Chatter will send you a text to verify your phone number. Standard SMS charges may apply.</string>
+    <string name="title_activity_messenger_home">MessengerHome</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="sampleUserName">"@ahsanz</string>
+    <string name="sampleBio">Kabhi aey haqiqat e muntazir nazar aa
+        libaas e majaaz mein.</string>
+    <string name="editProfile">Create and save your profile.</string>
+    <string name="noNetwork">No internet connectivity.</string>
+    <string name="Search">Search by username or phone...</string>
+    <string name="SampleSender">This is my message.</string>
+    <string name="SampleReciever">This is other message.</string>
+    <string name="SendRequest">Enter your message, receiver will
+        be notified of your message request.</string>
+    <string name ="MessageReqTitle">Following users want to connect with you.</string>
+</resources>

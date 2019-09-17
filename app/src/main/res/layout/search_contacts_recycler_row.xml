@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/search_user_circluar_image"
+        android:layout_gravity=""
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:src="@drawable/default_profile"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="@color/colorPrimary"
+        android:layout_weight="0.225"/>
+
+    <LinearLayout
+        android:layout_weight="0.775"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_user_Name"
+            android:textColor="@color/colorPrimary"
+            android:text="Janab Jee"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_user_username"
+            android:textColor="@color/colorPrimary"
+            android:text="janabjee"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
